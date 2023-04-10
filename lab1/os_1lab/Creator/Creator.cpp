@@ -4,9 +4,9 @@ using namespace std;
 
 struct employee
 {
-	int num;			// идентификационный номер сотрудника
-	char name[10];		// имя сотрудника
-	double hours;		// количество отработанных часов
+	int num;			
+	char name[10];		
+	double hours;		
 };
 
 int main(int argc, char* argv[])//1 name file, 2 count of records
