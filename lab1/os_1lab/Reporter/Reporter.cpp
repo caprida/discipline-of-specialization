@@ -26,8 +26,8 @@ int main(int argc, char* argv[])// 1. name of the binary file. 2.name of the rep
 		fin.read((char*)&emp[i], sizeof(employee));
 
 	qsort(emp, count, sizeof(employee), comp);
-	fout << "Отчет по файлу \"" << argv[1] << "\"" << endl;
-	fout << "Номер сотрудника, имя сотрудника, часы, зарплата" << endl;
+	fout << "Report of the file \"" << argv[1] << "\"" << endl;
+	fout << "Employee number, name, hours, salary" << endl;
 	for (int i = 0; i < count; i++)
 	{
 		fout << emp[i].num << " " << emp[i].name << " " << emp[i].hours << " " << emp[i].hours * payforhours << endl;

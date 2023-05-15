@@ -1,0 +1,14 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Main.cpp
+C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\os_1lab\Main.cpp(31,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\os_1lab\Main.cpp(32,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\os_1lab\Main.cpp(33,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\os_1lab\Main.cpp(34,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\os_1lab\Main.cpp(68,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\os_1lab\Main.cpp(69,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\os_1lab\Main.cpp(70,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\os_1lab\Main.cpp(71,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\os_1lab\Main.cpp(72,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\os_1lab\Main.cpp(73,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+Main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  os_1lab.vcxproj -> C:\учеба\6 семестр\discipline of specialization\lab1\os_1lab\Debug\os_1lab.exe

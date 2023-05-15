@@ -84,20 +84,13 @@ int main()
 	CloseHandle(piCom.hThread);
 	CloseHandle(piCom.hProcess);
 
-	try{
-	ifstream fin("");
+	ifstream fin(nameText);
 	char* str = new char[100];
-	while (!fin.eof())
-	{
+	while (!fin.eof()) {
 		fin.getline(str, 100);
 		cout << str << endl;
 	}
 	fin.close();
-	}
-	catch(FileNotFoundException e){
-		cout << "The file was not found:" << e;
-	}
-	
 
 	system("pause");
 	return 0;
